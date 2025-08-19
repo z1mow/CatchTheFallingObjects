@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		01D7FBCD2E3A02F5002F1995 /* Exceptions for "CatchTheFallingObjects" folder in "CatchTheFallingObjects" target */ = {
+		019E51F72E408C290006606A /* Exceptions for "CatchTheFallingObjects" folder in "CatchTheFallingObjects" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,10 +21,10 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		01D7FBBD2E3A02F3002F1995 /* CatchTheFallingObjects */ = {
+		019E51EB2E408C290006606A /* CatchTheFallingObjects */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				01D7FBCD2E3A02F5002F1995 /* Exceptions for "CatchTheFallingObjects" folder in "CatchTheFallingObjects" target */,
+				019E51F72E408C290006606A /* Exceptions for "CatchTheFallingObjects" folder in "CatchTheFallingObjects" target */,
 			);
 			path = CatchTheFallingObjects;
 			sourceTree = "<group>";
@@ -45,7 +45,7 @@
 		01D7FBB22E3A02F3002F1995 = {
 			isa = PBXGroup;
 			children = (
-				01D7FBBD2E3A02F3002F1995 /* CatchTheFallingObjects */,
+				019E51EB2E408C290006606A /* CatchTheFallingObjects */,
 				01D7FBBC2E3A02F3002F1995 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,7 +74,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				01D7FBBD2E3A02F3002F1995 /* CatchTheFallingObjects */,
+				019E51EB2E408C290006606A /* CatchTheFallingObjects */,
 			);
 			name = CatchTheFallingObjects;
 			packageProductDependencies = (

@@ -1,0 +1,48 @@
+**To Dos**
+
+                            // Sağlıklıları ve sağlıksızları ayırmak için iki değişken;
+                            var healthy = []
+                            var unhealthy = []
+
+                            // Oyunu bitirten obje değişkeni;
+                            var gameEnder = []
+
+                            // Doğru meyve yenilince skoru artıran değişken;
+                            var healthyCatchScore = 1
+
+                            // Yanlış meyve yenilince skoru azaltan değişken;
+                            var unhealthyCatchScore = -1
+
+
+                            if tapped == healthy
+                              score += healthyCatchScore
+                            else if tapped == unhealthy
+                              score += unhealthyCatchScore
+                            else if tapped == gameEnder
+                              gameOver()
+
+
+                            // Collectable size width ve height değişkeni;
+                            var collectableSize = 70
+                            collectable.size = CGSize(width: collectableSize, height: collectableSize)
+
+                            // En yüksek skor değişkeni;
+                            var heighestScore = 0
+                                  **override func update(_ currentTime: TimeInterval) içinde kontrol edilecek**
+                            if score > heighestScore {
+                              heighestScore = score
+                            }
+
+
+// Timer değişkeni;
+- Oyun ilerlediği süre boyunca bir timer akacak ve gameOver çalışıtğında timer durup, değeri tutulup, sıfırlanacak
+
+
+                            // Collectable hızı değişkeni;
+                            var collectableVelocity = 700  //default 700, zaman geçtikçe artacak
+
+
+// Ekran sağ ve sol sınırına duvar eklenecek
+
+
+// Ekran en altına sınır eklenecek, collectablelar o sınırdan yükselip o sınıra gelince yok olacak
